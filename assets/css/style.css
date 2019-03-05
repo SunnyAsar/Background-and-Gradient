@@ -45,7 +45,7 @@ a:hover {
   padding: 10px 0;
   text-align: center;
   cursor: pointer;
-  background: linear-gradient(rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.1) 50%);
+  background: linear-gradient(rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0.1) 55%);
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   flex-grow: 1;
 }
