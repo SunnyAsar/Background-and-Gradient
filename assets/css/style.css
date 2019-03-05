@@ -17,7 +17,7 @@
 .navigation {
   width: 980px;
   margin: auto;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   color: white;
   font-weight: bold;
   background-color: gray;
@@ -37,12 +37,17 @@
   cursor: pointer;
   border-right: 1px solid black;
   height: 100%;
+  padding: 10px 0;
 }
 
 .navigation ul li:hover {
-    border-right: 1px solid black;
-    background: black;
-  }
+    background: rgba(0, 0, 0, .3);
+}
+
+
+.navigation ul li:last-child {
+    border-right: none;
+}
 /* main Header Styles */
 
 .main-header {
