@@ -22,19 +22,27 @@
   font-weight: bold;
   background-color: gray;
   border-radius: 5px;
+  background: linear-gradient( silver 50%,grey 50% );
 }
 
 .navigation ul {
   display: flex;
   justify-content: space-around;
+  height: 100%;
 }
 
 .navigation ul li {
   flex-grow: 1;
   text-align: center;
   cursor: pointer;
+  border-right: 1px solid black;
+  height: 100%;
 }
 
+.navigation ul li:hover {
+    border-right: 1px solid black;
+    background: black;
+  }
 /* main Header Styles */
 
 .main-header {
