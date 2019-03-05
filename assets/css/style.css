@@ -1,90 +1,103 @@
 /* overall styles */
+
+a {
+  color: blue;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .container {
   width: 100%;
   max-width: 1440px;
   margin: auto;
-  font-family: Helvetica, sans-serif
+  font-family: Helvetica, sans-serif;
 }
 
 .hero {
   padding-top: 20px;
-  background:  url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 50% 100% no-repeat;
-  background-size: 1440px 1315px;;
-  
+  background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") 50% 100% no-repeat;
+  background-size: 1440px 1315px;
 }
 
 /* Header Styles */
+
 .navigation {
   width: 980px;
   margin: auto;
-  /* padding: 10px 0; */
-  color: white;
   font-weight: bold;
-  background-color: gray;
+  color: white;
+  background-color: #707070;
   border-radius: 5px;
-  background: linear-gradient( silver 50%,grey 50% );
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.7);
 }
 
 .navigation ul {
   display: flex;
-  justify-content: space-around;
   height: 100%;
+  justify-content: space-around;
 }
 
 .navigation ul li {
-  flex-grow: 1;
-  text-align: center;
-  cursor: pointer;
-  border-right: 1px solid black;
   height: 100%;
   padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  background: linear-gradient(rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.1) 50%);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  flex-grow: 1;
 }
 
 .navigation ul li:hover {
-    background: rgba(0, 0, 0, .3);
+  background: rgba(0, 0, 0, 0.3);
 }
-
 
 .navigation ul li:last-child {
-    border-right: none;
+  border-right: none;
 }
+
 /* main Header Styles */
 
 .main-header {
-  height: 657px;
   display: flex;
+  height: 657px;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: center;
-  color: white;
-  font-weight: lighter;
-}
-.main-title{
-font-size: 3em;
-margin-bottom: 15px;
 }
 
-.subtitle{
-    font-size: 25px;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+.main-title {
+  margin-bottom: 15px;
+  font-size: 3em;
 }
-.main-footer{
-    font-size: 20px;
-    letter-spacing: 2px;
+
+.subtitle {
+  margin-bottom: 20px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.main-footer {
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 /* SubSection Styles */
+
 .sub-section-list {
-  margin-top: 2px;
   display: flex;
+  margin-top: 2px;
   justify-content: space-around;
 }
 
 .sub-section-list li {
-  flex-grow: 1;
   cursor: pointer;
+  flex-grow: 1;
 }
 
 .sub-section-list img {
@@ -92,11 +105,12 @@ margin-bottom: 15px;
 }
 
 /* footer styles */
+
 .page-footer {
-  padding: 30px 0;
   width: 980px;
+  padding: 30px 0;
   margin: auto;
-  font-size: .7rem
+  font-size: 0.7rem;
 }
 
 .page-footer .left-side,
@@ -107,26 +121,15 @@ margin-bottom: 15px;
 
 .page-footer .right-side {
   float: right;
- 
 }
 
 .page-footer .right-side li {
   display: inline-block;
-  cursor: pointer;
   padding: 0 5px;
+  cursor: pointer;
   border-right: 1px solid grey;
-
 }
 
-.page-footer .right-side li:last-child{
-    border-right: none;
-  }
-
-/* extra styling */
-a{
-    color: blue;
-    cursor: pointer;
-}
-a:hover{
-    text-decoration: underline;
+.page-footer .right-side li:last-child {
+  border-right: none;
 }
