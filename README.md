@@ -2,7 +2,7 @@
 
 This is a project showing the use of Backgrounds in CSS
 
-[Click here to see the result](https://HenryTabima.github.io/positioning-and-floating)
+[Click here to see the result](https://SunnyAsar.github.io/Background-and-Gradient)
 
 ## Contributors
 
